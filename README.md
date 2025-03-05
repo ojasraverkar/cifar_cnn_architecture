@@ -13,13 +13,21 @@ Convert the images and labels lists to numpy lists as any model based on tensorf
 ## Model Specs
 
 Conv2D (32 filters) - Convolution - Used to extract features like shapes
+
 MaxPooling2D - Pooling - reduces size for fast processing
+
 Dropout - Preventing overfitting by dropping some nodes
+
 Batch Normalisation - Helps to converge and speed up training
+
 Conv2D (64 filters) - Convolution - Extract more detailed features
+
 MaxPooling2D - Pooling - reduces size again for faster processing
+
 Flatten - Convert to 1D vector
+
 Dense (128 units) - Fully connected - Patterns and relationship spotting
+
 Dense (10 units) - Output Layer - Final classification
 
 Use activation function - Relu for layers and Softmax for output layers.
